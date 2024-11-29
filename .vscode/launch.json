@@ -1,0 +1,50 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "2023 rust",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/2023/rust/target/debug/advent-of-code-2023",
+      "args": [],
+      "sourceLanguages": [
+        "rust"
+      ],
+      "cargo": {
+        "problemMatcher": "",
+        "args": [
+          "build",
+          "--bin=advent-of-code-2023",
+          "--manifest-path=${workspaceFolder}/2023/rust/Cargo.toml"
+        ],
+        "filter": {
+          "kind": "bin"
+        }
+      }
+    },
+    {
+      "name": "2024 rust",
+      "type": "lldb",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/2024/rust/target/debug/advent-of-code-2024",
+      "args": [],
+      "sourceLanguages": [
+        "rust"
+      ],
+      "cargo": {
+        "problemMatcher": "",
+        "args": [
+          "build",
+          "--bin=advent-of-code-2024",
+          "--manifest-path=${workspaceFolder}/2024/rust/Cargo.toml"
+        ],
+        "filter": {
+          "kind": "bin"
+        }
+      }
+    },
+  ],
+  "compounds": []
+}

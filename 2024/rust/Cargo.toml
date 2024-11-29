@@ -1,0 +1,8 @@
+[package]
+name = "advent-of-code-2024"
+version = "0.0.1"
+authors = ["Anders Liland"]
+edition = "2021"
+
+[dependencies]
+getopts = "~0.2.14"
