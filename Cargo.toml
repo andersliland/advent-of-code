@@ -1,0 +1,2 @@
+[workspace]
+members = ["2023/rust", "2024/rust"]
